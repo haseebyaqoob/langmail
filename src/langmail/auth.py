@@ -1,13 +1,4 @@
-"""Gmail OAuth2 authentication and encrypted token management.
 
-Flow:
-1. User runs `langmail setup`
-2. We open a browser to Google's OAuth consent screen
-3. User grants access
-4. We receive tokens and encrypt them to ~/.langmail/credentials.enc
-5. On subsequent runs, we load and decrypt the token automatically
-6. Refresh tokens are renewed automatically when expired
-"""
 
 import json
 
