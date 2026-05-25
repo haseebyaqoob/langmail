@@ -1,8 +1,4 @@
-"""LangGraph agent state schema for langmail.
 
-The state is passed between all nodes in the agent graph.
-Each sub-agent receives the relevant slice and returns updates via Command.
-"""
 
 from typing import Annotated, Literal, NotRequired
 
